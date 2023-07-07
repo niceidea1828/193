@@ -1,0 +1,176 @@
+.home {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+
+  width: 90px;
+  height: 40px;
+}
+
+.balance_cont {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.dice {
+  position: absolute;
+  bottom: 45px;
+  right: 40px;
+
+  transition: 0.5s linear transform;
+}
+
+.cup {
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  z-index: 5;
+
+  transition: 0.1s ease transform;
+}
+
+.spin {
+  position: absolute;
+  left: 120px;
+  bottom: 40px;
+}
+
+.auto {
+  position: absolute;
+  left: 200px;
+  bottom: 40px;
+}
+
+.control {
+  position: absolute;
+  right: 200px;
+  top: 25px;
+
+  gap: 15px;
+}
+
+.left,
+.right {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.over,
+.under {
+  width: 84px;
+  height: 36px;
+
+  font-family: "Inter";
+  color: #0a0f47;
+  font-size: 16px;
+  font-weight: 900;
+
+  background: url(../png/w-btn2.png) center/100% 100%;
+}
+
+.act {
+  filter: brightness(1.5);
+}
+
+.bet {
+  width: 60px;
+  height: 62px;
+
+  font-family: "Inter";
+  color: #0a0f47;
+  font-size: 16px;
+  font-weight: 900;
+
+  background: url(../png/w-btn.png) center/100% 100%;
+}
+
+.down {
+  transform: rotate(180deg);
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 317px;
+  height: 280px;
+
+  font-family: "Inter";
+  border-radius: 20px;
+  border: 1px solid #00a3ff;
+  background: #030713;
+}
+
+.modal_title {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.modal_control {
+  gap: 5px;
+}
+
+.modal_bet-amount_cont {
+  width: 162px;
+  height: 53px;
+
+  border-radius: 12px;
+  border: 0.5px solid #4f8bff;
+  background: rgba(13, 35, 41, 0.95);
+}
+
+.modal_bet-amount_cont img {
+  margin-right: 5px;
+}
+
+.minus,
+.plus {
+  width: 42px;
+  height: 42px;
+
+  font-size: 28px;
+
+  border-radius: 12px;
+  border: 0.5px solid #4f8bff;
+  background: rgba(13, 35, 41, 0.95);
+}
+
+.modal_ok {
+  width: 183px;
+  height: 50px;
+
+  font-size: 16px;
+}
+
+.result_cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+  width: 579px;
+}
+
+.result_cont img {
+  width: 100%;
+}
+
+.result {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 38px;
+  font-weight: 800;
+}

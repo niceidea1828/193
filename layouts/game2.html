@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/common_style.css" />
+    <link rel="stylesheet" href="../styles/game2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="result_cont hidden">
+        <img src="../png/win.png" alt="" class="win" />
+        <img src="../png/lose.png" alt="" class="lose" />
+
+        <div class="result"></div>
+      </div>
+
+      <div class="modal">
+        <div class="modal_title">Set bet</div>
+
+        <div class="modal_control block">
+          <div class="minus block">-</div>
+          <div class="modal_bet-amount_cont block">
+            <img src="../png/coin.png" alt="" />
+            <div class="modal_bet-amount">300</div>
+          </div>
+          <div class="plus block">+</div>
+        </div>
+
+        <div class="modal_ok y-btn">OK</div>
+      </div>
+
+      <a href="../main.html" class="home y-btn"> Lobby </a>
+
+      <div class="balance_cont block">
+        <img src="../png/coin.png" alt="coin" />
+        <div class="balance"></div>
+      </div>
+
+      <img src="../png/d1.png" alt="" class="dice" />
+      <img src="../png/d1.png" alt="" class="dice" />
+      <img src="../png/cup.png" alt="" class="cup" />
+
+      <img src="../png/spin.png" alt="" class="spin" />
+      <img src="../png/auto.png" alt="" class="auto" />
+
+      <div class="control block">
+        <div class="left block">
+          <div class="over block act">OVER</div>
+          <div class="under block">UNDER</div>
+        </div>
+
+        <div class="bet block">10</div>
+
+        <div class="right block">
+          <img src="../png/arrow.png" alt="" class="up" />
+          <img src="../png/arrow.png" alt="" class="down" />
+        </div>
+      </div>
+    </div>
+
+    <script src="../scripts/jQuery.js"></script>
+    <script src="../scripts/game2.js"></script>
+  </body>
+</html>

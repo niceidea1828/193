@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-V.ttf);
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/Eigerdals.ttf);
+}
+
+body {
+  background: url(../png/bg.png) center/100% 100%;
+
+  font-family: "Bold";
+  font-style: normal;
+
+  color: #fff;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  position: relative;
+
+  height: 100vh;
+  min-height: 360px;
+  width: 100%;
+
+  overflow: hidden;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.none {
+  display: none !important;
+}
+
+.balance_cont {
+  width: 99px;
+  height: 24px;
+
+  border-radius: 12px;
+  border: 0.5px solid #4f8bff;
+  background: rgba(13, 35, 41, 0.95);
+}
+
+.balance_cont img {
+  width: 12px;
+  margin-right: 4px;
+}
+
+.y-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Bold";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 38.462px;
+  color: rgb(109, 0, 1);
+
+  border-radius: 8.846px;
+  background: linear-gradient(
+    180deg,
+    #fefe03 0%,
+    #ffff01 20.31%,
+    #fff400 46.67%,
+    #ffcb01 48.75%,
+    #ffad00 100%
+  );
+  box-shadow: 0px 7.076923370361328px 3.538461685180664px 0px
+      rgba(0, 0, 0, 0.25),
+    0px 2.3589744567871094px 0px 0px #fe2b01,
+    0px 0.5897436141967773px 0px 0px #223d40;
+}

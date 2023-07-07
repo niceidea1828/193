@@ -1,0 +1,33 @@
+.wrapper {
+  backdrop-filter: brightness(0.6);
+  -webkit-backdrop-filter: brightness(0.6);
+
+  font-family: "Bold";
+}
+
+.p_header {
+  width: 60%;
+  margin: 30px 20px;
+  font-size: 36px;
+  text-align: left;
+}
+
+.text {
+  width: 60%;
+  height: 70%;
+  margin: 30px 20px;
+
+  font-weight: 400;
+  text-align: left;
+
+  overflow-y: scroll;
+}
+
+.y-btn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+
+  width: 160px;
+  height: 50px;
+}
